@@ -1,0 +1,22 @@
+{
+  "name": "team-member-search",
+  "version": "1.0.0",
+  "description": "application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wizeeee/Team-Member-Search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wizeeee/Team-Member-Search/issues"
+  },
+  "homepage": "https://github.com/Wizeeee/Team-Member-Search#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
