@@ -1,10 +1,9 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateHtml = require("./src/page-template");
-
+const Intern = require("./lib/Intern.js");
 const Manager = require("./lib/Manager.js");
 const Engineer = require("./lib/Engineer.js");
-const Intern = require("./lib/Intern.js");
 
 const employeeArray = [];
 
@@ -258,7 +257,7 @@ const writeFile = (fileContent) => {
 
       resolve({
         ok: true,
-        message: "Your Crew was created!",
+        message: "Your Team was created!",
       });
     });
   });
